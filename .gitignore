@@ -1,0 +1,19 @@
+$ cat .gitignore
+
+.idea/
+__pycache__/
+api_to_rabbit_1.py
+api_to_rabbit_2.py
+api_to_rabbit_3.py
+logs.log
+logs_1.log
+new_task.py
+send.py
+test.py
+test2.py
+testfile.txt
+twisted.py
+venv/
+worker.py
+.gitinit
+draft_rabbit_to_redis.py
