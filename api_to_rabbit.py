@@ -5,7 +5,7 @@ import random
 
 def create_message(param: str):
     now = datetime.datetime.now()
-    time_part = str(now.minute) + '|'
+    time_part = str(now.strftime("%H-%M-%S-%d-%m-%Y")) + '|'
     if param == "1":
         return time_part + str(random.randint(1, 19))
     elif param == "2":
